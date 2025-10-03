@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Source Resources</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="resources.html" class="active">Resources</a>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </nav>
+
+  <section class="content">
+    <h1>📚 Open Source Learning Resources</h1>
+    
+    <div class="filters">
+      <input type="text" id="search" placeholder="Search resources...">
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+        <option value="getting-started">🚀 Getting Started</option>
+        <option value="programs">🎓 Programs & Communities</option>
+        <option value="tools">🛠 Tools & Guides</option>
+      </select>
+    </div>
+
+    <!-- Beginner Section -->
+    <h2>🚀 Getting Started</h2>
+    <div class="resource-grid">
+      <div class="card" data-category="getting-started">
+        <span class="tag">Beginner</span>
+        <a href="https://opensource.guide/" target="_blank">Open Source Guide (GitHub)</a>
+      </div>
+      <div class="card" data-category="getting-started">
+        <span class="tag">Beginner</span>
+        <a href="https://firstcontributions.github.io/" target="_blank">First Contributions</a>
+      </div>
+      <div class="card" data-category="getting-started">
+        <span class="tag">Beginner</span>
+        <a href="https://www.freecodecamp.org/news/tags/open-source/" target="_blank">freeCodeCamp Open Source Tutorials</a>
+      </div>
+    </div>
+
+    <!-- Programs Section -->
+    <h2>🎓 Programs & Communities</h2>
+    <div class="resource-grid">
+      <div class="card" data-category="programs">
+        <span class="tag">Program</span>
+        <a href="https://summerofcode.withgoogle.com/" target="_blank">Google Summer of Code</a>
+      </div>
+      <div class="card" data-category="programs">
+        <span class="tag">Program</span>
+        <a href="https://mlh.io/" target="_blank">Major League Hacking (MLH)</a>
+      </div>
+      <div class="card" data-category="programs">
+        <span class="tag">Program</span>
+        <a href="https://outreachy.org/" target="_blank">Outreachy Program</a>
+      </div>
+    </div>
+
+    <!-- Tools Section -->
+    <h2>🛠 Tools & Guides</h2>
+    <div class="resource-grid">
+      <div class="card" data-category="tools">
+        <span class="tag">Tool</span>
+        <a href="https://www.linuxfoundation.org/" target="_blank">Linux Foundation Resources</a>
+      </div>
+      <div class="card" data-category="tools">
+        <span class="tag">Tool</span>
+        <a href="https://www.git-scm.com/docs" target="_blank">Git Documentation</a>
+      </div>
+      <div class="card" data-category="tools">
+        <span class="tag">Tool</span>
+        <a href="https://docs.github.com/en" target="_blank">GitHub Docs</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
